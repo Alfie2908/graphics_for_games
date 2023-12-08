@@ -1,0 +1,593 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.16f1 (e5ad54273a6f) revision 15052116'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/SourceCode/graphics_for_games
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53485
+Successfully changed project path to: C:/SourceCode/graphics_for_games
+C:/SourceCode/graphics_for_games
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9312] Host "[IP] 172.28.0.1 [Port] 0 [Flags] 2 [Guid] 3957722421 [EditorId] 3957722421 [Version] 1048832 [Id] WindowsEditor(7,Alfs-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9312] Host "[IP] 172.28.0.1 [Port] 0 [Flags] 2 [Guid] 3957722421 [EditorId] 3957722421 [Version] 1048832 [Id] WindowsEditor(7,Alfs-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 43.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.16f1 (e5ad54273a6f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/SourceCode/graphics_for_games/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     3774 MB
+    Driver:   27.20.21020.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005438 seconds.
+- Loaded All Assemblies, in  0.565 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 899ms
+	BeginReloadAssembly (217ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (335ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\SourceCode\graphics_for_games\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\SourceCode\graphics_for_games\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.645 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.990 seconds
+Domain Reload Profiling: 4633ms
+	BeginReloadAssembly (713ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (158ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (150ms)
+	LoadAllAssembliesAndSetupDomain (1592ms)
+		LoadAssemblies (1108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (837ms)
+			TypeCache.Refresh (758ms)
+				TypeCache.ScanAssembly (722ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1289ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (1075ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5172 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.5 MB). Loaded Objects now: 5726.
+Memory consumption went from 226.1 MB to 224.6 MB.
+Total: 14.988300 ms (FindLiveObjects: 1.307700 ms CreateObjectMapping: 0.754000 ms MarkObjects: 11.172800 ms  DeleteObjects: 1.748900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259771.628588 seconds.
+  path: Assets/Shaders/Water_shader.shadergraph
+  artifactKey: Guid(83d910e32b5893f4f9b51e3342df2d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Water_shader.shadergraph using Guid(83d910e32b5893f4f9b51e3342df2d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6683f4ed36886ac92918a92c32bc800b') in 0.614593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 161.643063 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Bark_DIFFUSE.png
+  artifactKey: Guid(fef563eb6da8bb544bf1c33cd1f317a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Bark_DIFFUSE.png using Guid(fef563eb6da8bb544bf1c33cd1f317a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04e8ebca66009ab9f406cad5a21e32c') in 0.053851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Bush_DIFFUSE.tga
+  artifactKey: Guid(88491e09118491544b47a00f80599785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Bush_DIFFUSE.tga using Guid(88491e09118491544b47a00f80599785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd113aa68639be10c23e74d26dc4e59') in 0.031182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Bark_NORMAL.tif
+  artifactKey: Guid(262619b5729b6eb4780d9914188b0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Bark_NORMAL.tif using Guid(262619b5729b6eb4780d9914188b0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a0d1f03f2cc0aa1c541a4af6ffa53f') in 0.039128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270980331d6352cfa99ab69799ab9281') in 0.086401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Rock_NORMAL.tif
+  artifactKey: Guid(a9aac2ee0cfc91447af5d81c2f54b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Rock_NORMAL.tif using Guid(a9aac2ee0cfc91447af5d81c2f54b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356e879e826b2a1f0194047d26279cb5') in 0.052556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/FernDry_DIFFUSE.png
+  artifactKey: Guid(64b7e697d7e4a534ba3a5faab07531f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/FernDry_DIFFUSE.png using Guid(64b7e697d7e4a534ba3a5faab07531f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3b5634f249aa860a86ad6a19cac200') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Fern_NORMAL.tif
+  artifactKey: Guid(8b722792e98e3ed43b62f30ff9647856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Fern_NORMAL.tif using Guid(8b722792e98e3ed43b62f30ff9647856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb8dec31b9c1c0810bd4e558379f17a') in 0.038171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Fern_DIFFUSE.png
+  artifactKey: Guid(4b8f893e4b470b24b83616009f9e14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Fern_DIFFUSE.png using Guid(4b8f893e4b470b24b83616009f9e14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d7c121323407a048a22865c6acf5b8') in 0.029448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d29d98afbce085db7be5940661c8d3') in 0.055246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Rock_DIFFUSE.tif
+  artifactKey: Guid(b48b5c1ded672764387b11fc44e7b8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Rock_DIFFUSE.tif using Guid(b48b5c1ded672764387b11fc44e7b8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883bf152162d8951ac75e4aaf6b9d39d') in 0.028590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Tree_Normal.tga
+  artifactKey: Guid(2760046e20248be4eb73fb9524dc604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Tree_Normal.tga using Guid(2760046e20248be4eb73fb9524dc604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e16f7c023962d80a73dd58c402edfd3') in 0.029073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures/Tree_DIFFUSE.tga
+  artifactKey: Guid(12cb9acd527325d4385d0cd2737f9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures/Tree_DIFFUSE.tga using Guid(12cb9acd527325d4385d0cd2737f9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9283afec0d68144bccd7b0913f7b885') in 0.030694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (1.4 MB). Loaded Objects now: 5863.
+Memory consumption went from 119.6 MB to 118.2 MB.
+Total: 7.412100 ms (FindLiveObjects: 0.547600 ms CreateObjectMapping: 0.191200 ms MarkObjects: 5.994100 ms  DeleteObjects: 0.677400 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1827.415001 seconds.
+  path: Assets/Materials/Water_material.mat
+  artifactKey: Guid(1dd0bd515d790a048b9d589edada401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Water_material.mat using Guid(1dd0bd515d790a048b9d589edada401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e9e485f9b6bb872ed8ffb1e0c04b09') in 1.591058 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.223891 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Textures
+  artifactKey: Guid(c86460818ffd96048825cc4cc8788b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Textures using Guid(c86460818ffd96048825cc4cc8788b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3963a28926f57ec3d2f89039324fc182') in 0.004196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.279117 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Shaders
+  artifactKey: Guid(9cc40701aad446149b465d9f6c326e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Shaders using Guid(9cc40701aad446149b465d9f6c326e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee258b85a472651d9c4573bf2148347b') in 0.002845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.096375 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Shaders/Rock_Noise.shadersubgraph
+  artifactKey: Guid(ca607e24b5911474aaebb42b32bace67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Shaders/Rock_Noise.shadersubgraph using Guid(ca607e24b5911474aaebb42b32bace67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68200c42043c2c1917df6f4b202d9b6e') in 0.140373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.835005 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs
+  artifactKey: Guid(4dbb65bd47475654e928fee2b5e47425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs using Guid(4dbb65bd47475654e928fee2b5e47425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e9d331e766ef28328909ead9430b52') in 0.002547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045613 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Bush.prefab
+  artifactKey: Guid(efc7b9e2d270b14488b0aeb25b7f63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Bush.prefab using Guid(efc7b9e2d270b14488b0aeb25b7f63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab088428b700ba509f5d2dadb39aed60') in 0.770466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Dry.prefab
+  artifactKey: Guid(48c19c97cadcae44f82d85545c9d4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Dry.prefab using Guid(48c19c97cadcae44f82d85545c9d4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e952843975434e918e92464671af521') in 0.066001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Maple Tree 2.prefab
+  artifactKey: Guid(c962519db2106794ba7765fb2f7f6e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Maple Tree 2.prefab using Guid(c962519db2106794ba7765fb2f7f6e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f22cc78fd72d194b1d34fb1785488ec') in 0.108158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Tall.prefab
+  artifactKey: Guid(25e72c040f4912c49a3fb44b92fc6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Tall.prefab using Guid(25e72c040f4912c49a3fb44b92fc6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abb49eefdd5b0344e9ef45df439ffa9') in 0.056066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Tall_Dry.prefab
+  artifactKey: Guid(87d392befc624e043a0515d8f5d502a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern_Tall_Dry.prefab using Guid(87d392befc624e043a0515d8f5d502a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aa7b857210d8c35ae7fc0263c5532c') in 0.037768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern.prefab
+  artifactKey: Guid(44f1ae89568e2aa4fb6db0b596623f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Fern.prefab using Guid(44f1ae89568e2aa4fb6db0b596623f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4463580e14ad02b38865bbf220f9a3') in 0.036825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Prefabs/Maple Tree 1.prefab
+  artifactKey: Guid(babc8e5ba64d4ea4081b022d34cf5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Prefabs/Maple Tree 1.prefab using Guid(babc8e5ba64d4ea4081b022d34cf5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143254472662bbbe430b6357e765e27e') in 0.060040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 74.495240 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Models
+  artifactKey: Guid(d4bc41186653d9947a7821cda8e77759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Models using Guid(d4bc41186653d9947a7821cda8e77759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3741aacec33869086cbfdaec93860ab') in 0.002783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.393351 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials
+  artifactKey: Guid(61e6b07cb1e30c04e83f7c6a95bcf11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials using Guid(61e6b07cb1e30c04e83f7c6a95bcf11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978a881b671b07f35f6153bfa165466c') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060864 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Bark.mat
+  artifactKey: Guid(5ff82c5cf4c409e458d96a239fb94df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Bark.mat using Guid(5ff82c5cf4c409e458d96a239fb94df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88aee5977d02d7026ff7750c92798e29') in 0.036436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Fern.mat
+  artifactKey: Guid(37751c7db6f326f42a3570e0cb3c9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Fern.mat using Guid(37751c7db6f326f42a3570e0cb3c9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc963cfb7f1b00cfea75a7fc9aeaf28') in 0.043432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Rock 1.mat
+  artifactKey: Guid(8bfe3aeb33d5ffe45b27b00ab8ffd1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Rock 1.mat using Guid(8bfe3aeb33d5ffe45b27b00ab8ffd1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02f2090eea72357f042668561d56cc8') in 0.068048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Fern_Dry.mat
+  artifactKey: Guid(dcdad404b362fb947b0d9b1acced2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Fern_Dry.mat using Guid(dcdad404b362fb947b0d9b1acced2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd522c9987c40322754ecdf7a69a64bb7') in 0.034877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Leaf.mat
+  artifactKey: Guid(079004ab962d9a3468a24af8519ac03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Leaf.mat using Guid(079004ab962d9a3468a24af8519ac03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99710ffa99d806fd7108ceb8effb4da4') in 0.039401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Bush.mat
+  artifactKey: Guid(a23f884fe9425c54a9a2a28db6f4e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Bush.mat using Guid(a23f884fe9425c54a9a2a28db6f4e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270c8fde89b87d6377b9e1b284bf12c9') in 0.036238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Materials/Rock.mat
+  artifactKey: Guid(71804886f88e0e54daa1cb28f6499e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Materials/Rock.mat using Guid(71804886f88e0e54daa1cb28f6499e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c3cca54b429174b19510e5dc6ee08f') in 0.046399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.430881 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Demo
+  artifactKey: Guid(08df36dcfaaae3d4fb4faddb101314a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Demo using Guid(08df36dcfaaae3d4fb4faddb101314a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579cf76c3f396403b9e60aa16b32eb05') in 0.001278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066175 seconds.
+  path: Assets/Materials/Rocks and Vegetation Pack/Demo/Realistic_PostProcessing 1.asset
+  artifactKey: Guid(01aa8afbe96624d44976578139201927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rocks and Vegetation Pack/Demo/Realistic_PostProcessing 1.asset using Guid(01aa8afbe96624d44976578139201927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7589e7653971e7e296de50b1269a83') in 0.088430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\SourceCode\graphics_for_games\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\SourceCode\graphics_for_games\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 16.218 seconds
+Refreshing native plugins compatible for Editor in 6.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 22.848 seconds
+Domain Reload Profiling: 39062ms
+	BeginReloadAssembly (8325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (186ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (76ms)
+		CreateAndSetChildDomain (2783ms)
+	RebuildCommonClasses (339ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (7431ms)
+		LoadAssemblies (7325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1746ms)
+			TypeCache.Refresh (1723ms)
+				TypeCache.ScanAssembly (1486ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (22848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 10.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.5 MB). Loaded Objects now: 5821.
+Memory consumption went from 196.1 MB to 194.6 MB.
+Total: 10.264400 ms (FindLiveObjects: 0.666400 ms CreateObjectMapping: 0.324900 ms MarkObjects: 8.630500 ms  DeleteObjects: 0.639500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 295.821255 seconds.
+  path: Assets/Materials/Terrain.asset
+  artifactKey: Guid(7056362f6b391f84a8b66495b044ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Terrain.asset using Guid(7056362f6b391f84a8b66495b044ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbec80a3fd638d749bb6ef5013fc993') in 0.277384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
